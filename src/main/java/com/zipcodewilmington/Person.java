@@ -6,10 +6,22 @@ package com.zipcodewilmington;
 public class Person {
     private final String firstName;
     private final String lastName;
+    private final int age;
+    private final String eyeColor;
+    private final boolean zipCoder;
 
-    public Person(String firstName, String lastName) {
+
+    public Person(String firstName,
+                  String lastName,
+                  int age,
+                  String eyeColor,
+                  boolean zipCoder) {
+
         this.firstName = firstName;
         this.lastName = lastName;
+        this.age = age;
+        this.eyeColor = eyeColor;
+        this.zipCoder = zipCoder;
     }
 
     public String getFirstName() {

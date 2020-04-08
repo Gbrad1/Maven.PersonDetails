@@ -14,9 +14,9 @@ public class PersonHandlerTest {
     @Before
     public void setup() {
         // : Given
-        Person person1 = new Person("Leon", "Hunter");
-        Person person2 = new Person("Tariq", "Hook");
-        Person person3 = new Person("Dolio", "Durant");
+        Person person1 = new Person("Leon", "Hunter", 24, "Green", true);
+        Person person2 = new Person("Tariq", "Hook", 15, "Brown", true);
+        Person person3 = new Person("Dolio", "Durant", 29, "Blue", true);
         Person[] personArray = {person1, person2, person3};
 
         this.personHandler = new PersonHandler(personArray);
